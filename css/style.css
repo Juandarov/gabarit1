@@ -4,7 +4,11 @@ header {
     background-color: rgb(27, 27, 27);
 }
 
-button {
+#navbar {
+    margin: 0 14%;
+}
+
+#but1 {
     background-color: transparent;
     border: medium none;
     margin: 2em;
@@ -28,15 +32,15 @@ main {
 
 #intro1 {
     border-radius: 6px;
-    float: left;
     width: 60%;
 }
 
 #intro3 {
     background-color: rgb(106, 98, 255);
-    border-radius: 4px;
+    border-radius: 8px;
     color: white;
     padding: 1em;
+
 }
 
 h1 {
@@ -44,6 +48,14 @@ h1 {
   font-size: 25px;
 }
 
+#titre1 {
+    border-radius: 6px;
+    background-color: rgba(187, 181, 198, 0.73);
+    font-size: 11px;
+    font-weight: normal;
+    text-align: center;
+    padding: 1.5% 0;
+}
 
 aside {
     display: inline-block;
@@ -58,5 +70,12 @@ section {
 
 article {
     display: inline-block;
-    width: 25%;
+    width: 29%;
+    font-size: 11px;
+    padding: 0 1.5%;
+}
+footer {
+    margin: 1em 15%;
+    font-weight: normal;
+    font-size: 10px;
 }
