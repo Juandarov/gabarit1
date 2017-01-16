@@ -1,0 +1,20 @@
+header {
+    display: inline-block;
+    width: 100%;
+    background-color: black;
+}
+body {
+    margin: 0;
+}
+main {
+    margin: 1em 20%;
+    display: inline-block;
+}
+#intro1 {
+    float:left;
+    
+}
+aside {
+    display: block;
+    width:
+}
