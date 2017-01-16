@@ -15,16 +15,48 @@ body {
     margin: 0;
 }
 
+hr {
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    color: rgb(231, 231, 231);
+}
+
 main {
-    margin: 1em 20%;
+    margin: 1em 15%;
     display: inline-block;
 }
 
 #intro1 {
-    float:left;
+    border-radius: 6px;
+    float: left;
+    width: 60%;
 }
 
+#intro3 {
+    background-color: rgb(106, 98, 255);
+    border-radius: 4px;
+    color: white;
+    padding: 1em;
+}
+
+h1 {
+  font-family: arial;
+  font-size: 25px;
+}
+
+
 aside {
-    display: block;
-    width:
+    display: inline-block;
+    font-size: 11px;
+    width: 35%;
+    padding-left: 2%;
+}
+
+section {
+  display: inline-block;
+}
+
+article {
+    display: inline-block;
+    width: 25%;
 }
