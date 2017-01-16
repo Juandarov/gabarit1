@@ -1,19 +1,29 @@
 header {
     display: inline-block;
     width: 100%;
-    background-color: black;
+    background-color: rgb(27, 27, 27);
 }
+
+button {
+    background-color: transparent;
+    border: medium none;
+    margin: 2em;
+    color: rgb(200, 200, 200);
+}
+
 body {
     margin: 0;
 }
+
 main {
     margin: 1em 20%;
     display: inline-block;
 }
+
 #intro1 {
     float:left;
-    
 }
+
 aside {
     display: block;
     width:
